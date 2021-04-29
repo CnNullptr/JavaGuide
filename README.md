@@ -1,12 +1,13 @@
 👍推荐 [在线阅读](https://snailclimb.gitee.io/javaguide)  (Github 访问速度比较慢可能会导致部分图片无法刷新出来) 
 
-## 一些闲话：
+👍推荐[2021最新实战项目源码下载](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=100018862&idx=1&sn=858e00b60c6097e3ba061e79be472280&chksm=4ea1856579d60c73224e4d852af6b0188c3ab905069fc28f4b293963fd1ee55d2069fb229848#rd)
+
+书单已经被移动到[awesome-cs](https://github.com/CodingDocs/awesome-cs) 这个仓库。
 
 > 1. **介绍**：关于 JavaGuide 的相关介绍请看：[关于 JavaGuide 的一些说明](https://www.yuque.com/snailclimb/dr6cvl/mr44yt) 。
-> 2. **PDF版本** ： [《JavaGuide 面试突击版》PDF 版本](#公众号) 。[图解计算机基础 PDF 版、](#优质原创PDF资源)。
-> 3. **知识星球** : 简历指导/Java学习/面试指导/面试小册。欢迎加入[我的知识星球](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247497451&idx=1&sn=ea566dd64662ff8d5260f079c11c2268&chksm=cea1b920f9d630367eb80666da7b599bb610b9d61c6f956add1ee0a607ddcd61372931808877&token=804689790&lang=zh_CN#rd) 。
-> 4. **面试专版** ：准备面试的小伙伴可以考虑面试专版：[《Java 面试进阶指南》](https://xiaozhuanlan.com/javainterview?rel=javaguide) ，
-> 5. **联系我** ：如要进群或者请教问题，请[联系我](#联系我) （备注来自 Github。请直入问题，工作时间不回复）。
+> 2. **PDF版本** ： [《JavaGuide 面试突击版》PDF 版本](#公众号) 。[图解计算机基础 PDF 版](#优质原创PDF资源)。
+> 3. **知识星球** : 简历指导/Java学习/面试指导/面试小册。欢迎加入[我的知识星球](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=100015911&idx=1&sn=2e8a0f5acb749ecbcbb417aa8a4e18cc&chksm=4ea1b0ec79d639fae37df1b86f196e8ce397accfd1dd2004bcadb66b4df5f582d90ae0d62448#rd) 。星球内部更新的[《Java面试进阶指北  打造个人的技术竞争力》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7)这个小册的质量很高，专为面试打造。
+> 4. **面试专版** ：准备面试的小伙伴可以考虑面试专版：[《Java 面试进阶指南》](https://xiaozhuanlan.com/javainterview?rel=javaguide) 
 > 6. **转载须知** ：以下所有文章如非文首说明皆为我（Guide哥）的原创，转载在文首注明出处，如发现恶意抄袭/搬运，会动用法律武器维护自己的权益。让我们一起维护一个良好的技术创作环境！⛽️
 
 <p align="center">
@@ -37,72 +38,6 @@
   </tbody>
 </table>
 
-
-
-
-
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [Java](#java)
-  - [基础 (必看 :+1:)](#基础)
-  - [容器](#容器)
-  - [并发](#并发)
-  - [JVM (必看 :+1:)](#jvm-必看-1)
-  - [新特性](#新特性)
-- [网络](#网络)
-- [操作系统](#操作系统)
-- [数据结构与算法](#数据结构与算法)
-  - [数据结构](#数据结构)
-  - [算法](#算法)
-- [数据库](#数据库)
-  - [MySQL](#mysql)
-  - [Redis](#redis)
-- [系统设计](#系统设计)
-  - [编码之道(必看 :+1:)](#编码之道必看-1)
-  - [常用框架](#常用框架)
-    - [Spring/SpringBoot](#springspringboot)
-    - [MyBatis](#mybatis)
-    - [Netty (必看 :+1:)](#netty-必看-1)
-    - [ZooKeeper](#zookeeper)
-  - [认证授权](#认证授权)
-    - [JWT](#jwt)
-    - [SSO(单点登录)](#sso单点登录)
-  - [分布式](#分布式)
-    - [CAP 理论](#cap-理论)
-    - [BASE 理论](#base-理论)
-    - [Paxos 算法和 Raft 算法](#paxos-算法和-raft-算法)
-    - [搜索引擎](#搜索引擎)
-    - [RPC](#rpc)
-    - [API 网关](#api-网关)
-    - [分布式 id](#分布式-id)
-  - [微服务](#微服务)
-  - [高并发](#高并发)
-    - [消息队列](#消息队列)
-    - [读写分离](#读写分离)
-    - [分库分表](#分库分表)
-    - [负载均衡](#负载均衡)
-  - [高可用](#高可用)
-    - [限流](#限流)
-    - [降级](#降级)
-    - [熔断](#熔断)
-    - [排队](#排队)
-  - [大型网站架构](#大型网站架构)
-- [工具](#工具)
-- [Java 学习常见问题汇总](#java-学习常见问题汇总)
-- [书单](#书单)
-- [其他](#其他)
-  - [待办](#待办)
-  - [联系我](#联系我)
-  - [捐赠支持](#捐赠支持)
-  - [Contributor](#贡献者)
-  - [公众号](#公众号)
-
-<!-- /code_chunk_output -->
-
-
 ## Java
 
 ### 基础
@@ -118,16 +53,14 @@
 2. [Java 常见关键字总结：final、static、this、super!](docs/java/basis/Java常见关键字总结.md)
 3. [什么是反射机制？反射机制的应用场景有哪些？](docs/java/basis/反射机制.md)
 4. [代理模式详解：静态代理+JDK/CGLIB 动态代理实战](docs/java/basis/代理模式详解.md)
-5. [常见的 IO 模型有哪些？Java 中的 BIO、NIO、AIO 有啥区别?](https://www.cnblogs.com/javaguide/p/io.html)
+5. [常见的 IO 模型有哪些？Java 中的 BIO、NIO、AIO 有啥区别?](docs/java/basis/IO模型.md)
 
 ### 容器
 
-1. **[Java 容器常见面试题/知识点总结](docs/java/collection/Java集合框架常见面试题.md)** (必看 :+1:)
+1. **[Java 容器常见问题总结](docs/java/collection/Java集合框架常见面试题.md)** (必看 :+1:)
 2. **源码分析** ：[ArrayList 源码+扩容机制分析](docs/java/collection/ArrayList源码+扩容机制分析.md) 、[LinkedList 源码](docs/java/collection/LinkedList源码分析.md) 、[HashMap(JDK1.8)源码+底层数据结构分析](<docs/java/collection/HashMap(JDK1.8)源码+底层数据结构分析.md>) 、[ConcurrentHashMap 源码+底层数据结构分析](docs/java/collection/ConcurrentHashMap源码+底层数据结构分析.md)
 
 ### 并发
-
-并发这部分内容非常重要，还是面试中的重点中的重点！但是，学习起来难度较大，因此我写了：**[多线程学习指南](./docs/java/multi-thread/多线程学习指南.md)** 帮助你学习。
 
 **知识点/面试题:** (必看 :+1:)
 
@@ -197,14 +130,14 @@
 
 **总结：**
 
-1. **[MySQL知识点总结](docs/database/MySQL.md)**
-2. **[阿里巴巴开发手册数据库部分的一些最佳实践](docs/database/阿里巴巴开发手册数据库部分的一些最佳实践.md)**
-3. **[一千行 MySQL 学习笔记](docs/database/一千行MySQL命令.md)**
+1. **[MySQL知识点总结](docs/database/MySQL.md)** (必看 :+1:)
+2. [阿里巴巴开发手册数据库部分的一些最佳实践](docs/database/阿里巴巴开发手册数据库部分的一些最佳实践.md)
+3. [一千行 MySQL 学习笔记](docs/database/一千行MySQL命令.md)
 4. [MySQL 高性能优化规范建议](docs/database/MySQL高性能优化规范建议.md)
 
 **重要知识点：**
 
-1. [数据库索引总结 1](docs/database/MySQL%20Index.md)、[数据库索引总结 2](docs/database/数据库索引.md)
+1. [MySQL数据库索引总结](docs/database/MySQL数据库索引.md)
 2. [事务隔离级别(图文详解)](<docs/database/事务隔离级别(图文详解).md>)
 3. [一条 SQL 语句在 MySQL 中如何执行的](docs/database/一条sql语句在mysql中如何执行的.md)
 4. [关于数据库中如何存储时间的一点思考](docs/database/关于数据库存储时间的一点思考.md)
@@ -288,11 +221,11 @@ CAP 也就是 Consistency（一致性）、Availability（可用性）、Partiti
 
 **BASE** 是 **Basically Available（基本可用）** 、**Soft-state（软状态）** 和 **Eventually Consistent（最终一致性）** 三个短语的缩写。BASE 理论是对 CAP 中一致性和可用性权衡的结果，其来源于对大规模互联网系统分布式实践的总结，是基于 CAP 定理逐步演化而来的，它大大降低了我们对系统的要求。
 
-关于 CAP 的详细解读请看：[《BASE理论解读》](docs/system-design/distributed-system/BASE理论.md)。
+关于 BASE 的详细解读请看：[《BASE理论解读》](docs/system-design/distributed-system/BASE理论.md)。
 
 #### Paxos 算法和 Raft 算法
 
-**Paxos 算法**诞生于 1900 年，这是一种解决分布式系统一致性的经典算法 。但是，由于 Paxos 算法非常难以理解和实现，不断有人尝试简化这一算法。到了2013 年才诞生了一个比 Paxos 算法更易理解和实现的分布式一致性算法—**Raft 算法**。
+**Paxos 算法**诞生于 1990 年，这是一种解决分布式系统一致性的经典算法 。但是，由于 Paxos 算法非常难以理解和实现，不断有人尝试简化这一算法。到了2013 年才诞生了一个比 Paxos 算法更易理解和实现的分布式一致性算法—**Raft 算法**。
 
 #### 搜索引擎
 
@@ -302,9 +235,10 @@ CAP 也就是 Consistency（一致性）、Availability（可用性）、Partiti
 
 RPC 让调用远程服务调用像调用本地方法那样简单。
 
-1. [Dubbo 总结：关于 Dubbo 的重要知识点](docs/system-design/distributed-system/rpc/关于Dubbo的重要知识点.md)
-2. [服务之间的调用为啥不直接用 HTTP 而用 RPC？](docs/system-design/distributed-system/rpc/服务之间的调用为啥不直接用HTTP而用RPC.md)
-3. [一款基于 Netty+Kyro+Zookeeper 实现的自定义 RPC 框架](https://github.com/Snailclimb/guide-rpc-framework)
+Dubbo 是一款国产的 RPC 框架，由阿里开源。相关阅读：
+
+- [Dubbo 常见问题总结](docs/system-design/distributed-system/rpc/Dubbo.md)
+- [服务之间的调用为啥不直接用 HTTP 而用 RPC？](docs/system-design/distributed-system/rpc/服务之间的调用为啥不直接用HTTP而用RPC.md)
 
 #### API 网关
 
@@ -332,23 +266,23 @@ RPC 让调用远程服务调用像调用本地方法那样简单。
 
 #### 消息队列
 
-消息队列在分布式系统中主要是为了解耦和削峰。相关阅读： **[消息队列总结](docs/system-design/distributed-system/message-queue/message-queue.md)** 。
+消息队列在分布式系统中主要是为了解耦和削峰。相关阅读： [消息队列常见问题总结](docs/system-design/distributed-system/message-queue/message-queue.md)。
 
 1. **RabbitMQ** : [RabbitMQ 入门](docs/system-design/distributed-system/message-queue/RabbitMQ入门看这一篇就够了.md)
 2. **RocketMQ** : [RocketMQ 入门](docs/system-design/distributed-system/message-queue/RocketMQ.md)、[RocketMQ 的几个简单问题与答案](docs/system-design/distributed-system/message-queue/RocketMQ-Questions.md)
-3. **Kafka** ：[Kafka 常见面试题总结](docs/system-design/distributed-system/message-queue/Kafka常见面试题总结.md)
+3. **Kafka** ：[Kafka 常见问题总结](docs/system-design/distributed-system/message-queue/Kafka常见面试题总结.md)
 
-#### 读写分离
+#### 读写分离&分库分表
 
 读写分离主要是为了将数据库的读和写操作分不到不同的数据库节点上。主服务器负责写，从服务器负责读。另外，一主一从或者一主多从都可以。
 
-**读写分离可以大幅提高读性能，小幅提高写的性能。因此，读写分离更适合单机并发读请求比较多的场景。**
+读写分离可以大幅提高读性能，小幅提高写的性能。因此，读写分离更适合单机并发读请求比较多的场景。
 
-#### 分库分表
+分库分表是为了解决由于库、表数据量过大，而导致数据库性能持续下降的问题。
 
-**分库分表是为了解决由于库、表数据量过大，而导致数据库性能持续下降的问题。** 常见的分库分表工具有：`sharding-jdbc`（当当）、`TSharding`（蘑菇街）、`MyCAT`（基于 Cobar）、`Cobar`（阿里巴巴）...。
+常见的分库分表工具有：`sharding-jdbc`（当当）、`TSharding`（蘑菇街）、`MyCAT`（基于 Cobar）、`Cobar`（阿里巴巴）...。 推荐使用 `sharding-jdbc`。 因为，`sharding-jdbc` 是一款轻量级 `Java` 框架，以 `jar` 包形式提供服务，不要我们做额外的运维工作，并且兼容性也很好。
 
-**推荐使用 `sharding-jdbc`** 。 因为，`sharding-jdbc` 是一款轻量级 `Java` 框架，以 `jar` 包形式提供服务，不要我们做额外的运维工作，并且兼容性也很好。
+相关阅读： [读写分离&分库分表常见问题总结](docs/system-design/读写分离&分库分表.md)
 
 #### 负载均衡
 
@@ -407,8 +341,8 @@ RPC 让调用远程服务调用像调用本地方法那样简单。
 
 1. **Java** ：[JAD 反编译](docs/java/JAD反编译tricks.md)、[手把手教你定位常见 Java 性能问题](./docs/java/手把手教你定位常见Java性能问题.md)
 2. **Git** ：[Git 入门](docs/tools/Git.md)
-3. **Github** ： [我使用Github 5 年总结了这些骚操作](docs/tools/Github技巧.md)
-4. **Docker** : [Docker 基本概念解读](docs/tools/Docker.md) 、[一文搞懂 Docker 镜像的常用操作！](docs/tools/Docker-Image.md)
+3. **Github** ： [Github小技巧](docs/tools/Github技巧.md)
+4. **Docker** : [Docker 基本概念解读](docs/tools/Docker.md) 、[Docker从入门到上手干事](docs/tools/Docker从入门到实战.md)
 
 ## Java 学习常见问题汇总
 
@@ -416,10 +350,6 @@ RPC 让调用远程服务调用像调用本地方法那样简单。
 2. [Java 培训四个月能学会吗？](docs/questions/java-training-4-month.md)
 3. [新手学习 Java，有哪些 Java 相关的博客，专栏，和技术学习网站推荐？](docs/questions/java-learning-website-blog.md)
 4. [Java 还是大数据，你需要了解这些东西！](docs/questions/java-big-data.md)
-
-## 书单
-
-1. [「基础篇」Java 书单](./docs/books/java基础篇.md)
 
 ---
 
@@ -433,7 +363,6 @@ RPC 让调用远程服务调用像调用本地方法那样简单。
 
 ### 待办
 
-- [x] Netty 总结
 - [ ] 数据结构总结重构
 
 ### 优质原创PDF资源
@@ -458,7 +387,7 @@ RPC 让调用远程服务调用像调用本地方法那样简单。
 
 如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号“**JavaGuide**”。
 
-**《Java 面试突击》:** 由本文档衍生的专为面试而生的《Java 面试突击》V3.0 PDF 版本[公众号](#公众号)后台回复 **"面试突击"** 即可免费领取！
+**《Java 面试突击》:** 由本文档衍生的专为面试而生的《Java 面试突击》V4.0 PDF 版本[公众号](#公众号)后台回复 **"面试突击"** 即可领取！
 
 ![我的公众号](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-08/167598cd2e17b8ec.png)
 
