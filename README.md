@@ -1,3 +1,7 @@
+👍推荐: [我花了半个月写的 2021 最新版 Java学习路线！](https://www.zhihu.com/question/56110328/answer/869069586) (原创不易，欢迎点赞分享~)
+
+👍推荐: [程序员需要达到什么水平才能顺利拿到 20k 无压力？](https://www.zhihu.com/question/47597895/answer/1870582783) (原创不易，欢迎点赞分享~)
+
 👍推荐 [在线阅读](https://snailclimb.gitee.io/javaguide)  (Github 访问速度比较慢可能会导致部分图片无法刷新出来) 
 
 👍推荐[2021最新实战项目源码下载](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=100018862&idx=1&sn=858e00b60c6097e3ba061e79be472280&chksm=4ea1856579d60c73224e4d852af6b0188c3ab905069fc28f4b293963fd1ee55d2069fb229848#rd)
@@ -6,13 +10,13 @@
 
 > 1. **介绍**：关于 JavaGuide 的相关介绍请看：[关于 JavaGuide 的一些说明](https://www.yuque.com/snailclimb/dr6cvl/mr44yt) 。
 > 2. **PDF版本** ： [《JavaGuide 面试突击版》PDF 版本](#公众号) 。[图解计算机基础 PDF 版](#优质原创PDF资源)。
-> 3. **知识星球** : 简历指导/Java学习/面试指导/面试小册。欢迎加入[我的知识星球](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=100015911&idx=1&sn=2e8a0f5acb749ecbcbb417aa8a4e18cc&chksm=4ea1b0ec79d639fae37df1b86f196e8ce397accfd1dd2004bcadb66b4df5f582d90ae0d62448#rd) 。星球内部更新的[《Java面试进阶指北  打造个人的技术竞争力》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7)这个小册的质量很高，专为面试打造。
+> 3. **知识星球** :  简历指导/Java学习/面试指导/面试小册。欢迎加入[我的知识星球](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=100015911&idx=1&sn=2e8a0f5acb749ecbcbb417aa8a4e18cc&chksm=4ea1b0ec79d639fae37df1b86f196e8ce397accfd1dd2004bcadb66b4df5f582d90ae0d62448#rd) 。星球内部更新的[《Java面试进阶指北  打造个人的技术竞争力》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7)这个小册的质量很高，专为面试打造。
 > 4. **面试专版** ：准备面试的小伙伴可以考虑面试专版：[《Java 面试进阶指南》](https://xiaozhuanlan.com/javainterview?rel=javaguide) 
 > 6. **转载须知** ：以下所有文章如非文首说明皆为我（Guide哥）的原创，转载在文首注明出处，如发现恶意抄袭/搬运，会动用法律武器维护自己的权益。让我们一起维护一个良好的技术创作环境！⛽️
 
 <p align="center">
 <a href="https://github.com/Snailclimb/JavaGuide" target="_blank">
-	<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3/logo - 副本.png" width=""/>
+	<img src="https://img-blog.csdnimg.cn/img_convert/1c00413c65d1995993bf2b0daf7b4f03.png#pic_center" width=""/>
 </a>
 </p>
 <p align="center">
@@ -149,11 +153,19 @@
 
 ## 系统设计
 
-### 编码之道(必看 :+1:)
+### 系统设计必备基础
 
-1. [RestFul API 简明教程](docs/system-design/coding-way/RESTfulAPI简明教程.md)
-2. [Java 编程规范以及优雅 Java 代码实践总结](docs/java/Java编程规范.md)
-3. [Java 命名之道](docs/system-design/naming.md)
+#### RESTful API
+
+我们在进行后端开发的时候，主要的工作就是为前端或者其他后端服务提供 API 比如查询用户数据的 API 。RESTful API 是一种基于 REST 构建的 API，它是一种被设计的更好使用的 API。
+
+相关阅读：[RestFul API 简明教程](docs/system-design/coding-way/RESTfulAPI简明教程.md)
+
+#### 命名
+
+编程过程中，一定要重视命名。因为好的命名即是注释，别人一看到你的命名就知道你的变量、方法或者类是做什么的！
+
+相关阅读： [Java 命名之道](docs/system-design/naming.md) 。
 
 ### 常用框架
 
@@ -346,7 +358,7 @@ Dubbo 是一款国产的 RPC 框架，由阿里开源。相关阅读：
 
 ## Java 学习常见问题汇总
 
-1. [Java 学习路线和方法推荐](docs/questions/java-learning-path-and-methods.md)
+1. [2021最新 Java 学习路线！凎！](https://www.zhihu.com/question/56110328/answer/869069586)
 2. [Java 培训四个月能学会吗？](docs/questions/java-training-4-month.md)
 3. [新手学习 Java，有哪些 Java 相关的博客，专栏，和技术学习网站推荐？](docs/questions/java-learning-website-blog.md)
 4. [Java 还是大数据，你需要了解这些东西！](docs/questions/java-big-data.md)
