@@ -77,7 +77,7 @@ Integer i2 = new Integer(40);
 System.out.println(i1==i2);//false
 ```
 
-`Integer i1=40` 这一行代码会发生拆箱，也就是说这行代码等价于 `Integer i1=Integer.valueOf(40)` 。因此，`i1` 直接使用的是常量池中的对象。而`Integer i1 = new Integer(40)` 会直接创建新的对象。因此，输出 false 。
+`Integer i1=40` 这一行代码会发生装箱，也就是说这行代码等价于 `Integer i1=Integer.valueOf(40)` 。因此，`i1` 直接使用的是常量池中的对象。而`Integer i1 = new Integer(40)` 会直接创建新的对象。因此，输出 false 。
 
 记住：**所有整型包装类对象之间值的比较，全部使用 `equals()`  方法比较**。
 
@@ -376,7 +376,7 @@ s=list.toArray(new String[0]);//没有指定类型的话会报错
 
 如果要进行`remove`操作，可以调用迭代器的 `remove `方法而不是集合类的 remove 方法。因为如果列表在任何时间从结构上修改创建迭代器之后，以任何方式除非通过迭代器自身`remove/add`方法，迭代器都将抛出一个`ConcurrentModificationException`,这就是单线程状态下产生的 **fail-fast 机制**。
 
-> **fail-fast 机制** ：多个线程对 fail-fast 集合进行修改的时，可能会抛出ConcurrentModificationException，单线程下也会出现这种情况，上面已经提到过。
+> **fail-fast 机制** ：多个线程对 fail-fast 集合进行修改的时候，可能会抛出ConcurrentModificationException，单线程下也会出现这种情况，上面已经提到过。
 
 Java8开始，可以使用`Collection#removeIf()`方法删除满足特定条件的元素,如
 ``` java

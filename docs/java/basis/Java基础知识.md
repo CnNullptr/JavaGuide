@@ -175,7 +175,7 @@ Java 语言既具有编译型语言的特征，也具有解释型语言的特征
    > 字符封装类 `Character` 有一个成员常量 `Character.SIZE` 值为 16,单位是`bits`,该值除以 8(`1byte=8bits`)后就可以得到 2 个字节
 
 > java 编程思想第四版：2.2.2 节
-> ![](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-15/86735519.jpg)
+> ![](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-15/86735519.jpg)
 
 ### 注释
 
@@ -274,7 +274,7 @@ System.out.println(list);
 ```java
 //此处T可以随便写为任意标识，常见的如T、E、K、V等形式的参数常用于表示泛型
 //在实例化泛型类时，必须指定T的具体类型
-public class Generic<T>{
+public class Generic<T> {
 
     private T key;
 
@@ -282,7 +282,7 @@ public class Generic<T>{
         this.key = key;
     }
 
-    public T getKey(){
+    public T getKey() {
         return key;
     }
 }
@@ -316,7 +316,7 @@ class GeneratorImpl<T> implements Generator<T>{
 实现泛型接口，指定类型：
 
 ```java
-class GeneratorImpl<T> implements Generator<String>{
+class GeneratorImpl implements Generator<String>{
     @Override
     public String method() {
         return "hello";
@@ -327,13 +327,12 @@ class GeneratorImpl<T> implements Generator<String>{
 **3.泛型方法** ：
 
 ```java
-   public static < E > void printArray( E[] inputArray )
-   {
-         for ( E element : inputArray ){
-            System.out.printf( "%s ", element );
-         }
-         System.out.println();
+public static <E> void printArray(E[] inputArray) {
+    for (E element : inputArray) {
+        System.out.printf("%s ", element);
     }
+    System.out.println();
+}
 ```
 
 使用：
@@ -342,8 +341,8 @@ class GeneratorImpl<T> implements Generator<String>{
 // 创建不同类型数组： Integer, Double 和 Character
 Integer[] intArray = { 1, 2, 3 };
 String[] stringArray = { "Hello", "World" };
-printArray( intArray  );
-printArray( stringArray  );
+printArray(intArray);
+printArray(stringArray);
 ```
 
 **常用的通配符为： T，E，K，V，？**
@@ -457,7 +456,7 @@ public native int hashCode();
 
 在这里解释一位小伙伴的问题。以下内容摘自《Head Fisrt Java》。
 
-因为 `hashCode()` 所使用的杂凑算法也许刚好会让多个对象传回相同的杂凑值。越糟糕的杂凑算法越容易碰撞，但这也与数据值域分布的特性有关（所谓碰撞也就是指的是不同的对象得到相同的 `hashCode`。
+因为 `hashCode()` 所使用的哈希算法也许刚好会让多个对象传回相同的哈希值。越糟糕的哈希算法越容易碰撞，但这也与数据值域分布的特性有关（所谓碰撞也就是指的是不同的对象得到相同的 `hashCode`。
 
 我们刚刚也提到了 `HashSet`,如果 `HashSet` 在对比的时候，同样的 hashcode 有多个对象，它会使用 `equals()` 来判断是否真的相同。也就是说 `hashcode` 只是用来缩小查找成本。
 
@@ -750,7 +749,7 @@ public void f5(int a) {
 
 首先，我们回顾一下在程序设计语言中有关将参数传递给方法（或函数）的一些专业术语。
 
-**按值调用(call by value)** 表示方法接收的是调用者提供的值，**按引用调用（call by reference)** 表示方法接收的是调用者提供的变量地址。一个方法可以修改传递引用所对应的变量值，而不能修改传递值调用所对应的变量值。它用来描述各种程序设计语言（不只是 Java)中方法参数传递方式。
+**按值调用(call by value)** 表示方法接收的是调用者提供的值，**按引用调用（call by reference)** 表示方法接收的是调用者提供的变量地址。一个方法可以修改传递引用所对应的变量值，而不能修改传递值调用所对应的变量值。它用来描述各种程序设计语言（不只是 Java）中方法参数传递方式。
 
 **Java 程序设计语言总是采用按值调用。也就是说，方法得到的是所有参数值的一个拷贝，也就是说，方法不能修改传递给它的任何参数变量的内容。**
 
@@ -790,7 +789,7 @@ num2 = 20
 
 **解析：**
 
-![example 1 ](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-27/22191348.jpg)
+![example 1 ](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-27/22191348.jpg)
 
 在 swap 方法中，a、b 的值进行交换，并不会影响到 num1、num2。因为，a、b 中的值，只是从 num1、num2 的复制过来的。也就是说，a、b 相当于 num1、num2 的副本，副本的内容无论怎么修改，都不会影响到原件本身。
 
@@ -821,7 +820,7 @@ num2 = 20
 
 **解析：**
 
-![example 2](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-27/3825204.jpg)
+![example 2](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-27/3825204.jpg)
 
 array 被初始化 arr 的拷贝也就是一个对象的引用，也就是说 array 和 arr 指向的是同一个数组对象。 因此，外部对引用对象的改变会反映到所对应的对象上。
 
@@ -866,11 +865,11 @@ s2:小李
 
 交换之前：
 
-![](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-27/88729818.jpg)
+![](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-27/88729818.jpg)
 
 交换之后：
 
-![](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-27/34384414.jpg)
+![](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-27/34384414.jpg)
 
 通过上面两张图可以很清晰的看出： **方法并没有改变存储在变量 s1 和 s2 中的对象引用。swap 方法的参数 x 和 y 被初始化为两个对象引用的拷贝，这个方法交换的是这两个拷贝**
 
@@ -1119,7 +1118,6 @@ abstract class AbstractStringBuilder implements Appendable, CharSequence {
 Object 类是一个特殊的类，是所有类的父类。它主要提供了以下 11 个方法：
 
 ```java
-
 public final native Class<?> getClass()//native方法，用于返回当前运行时对象的Class对象，使用了final关键字修饰，故不允许子类重写。
 
 public native int hashCode() //native方法，用于返回对象的哈希码，主要使用在哈希表中，比如JDK中的HashMap。
@@ -1140,8 +1138,8 @@ public final void wait(long timeout, int nanos) throws InterruptedException//多
 public final void wait() throws InterruptedException//跟之前的2个wait方法一样，只不过该方法一直等待，没有超时时间这个概念
 
 protected void finalize() throws Throwable { }//实例被垃圾回收器回收的时候触发的操作
-
 ```
+
 
 ## 反射
 
@@ -1325,7 +1323,7 @@ try (BufferedInputStream bin = new BufferedInputStream(new FileInputStream(new F
         }
 ```
 
-## I\O 流
+## I/O 流
 
 ### 什么是序列化?什么是反序列化?
 
@@ -1350,7 +1348,7 @@ try (BufferedInputStream bin = new BufferedInputStream(new FileInputStream(new F
 
 ### Java 序列化中如果有些字段不想进行序列化，怎么办？
 
-`对于不想进行序列化的变量，使用`transient`关键字修饰。`
+对于不想进行序列化的变量，使用`transient`关键字修饰。`
 
 `transient` 关键字的作用是：阻止实例中那些用此关键字修饰的的变量序列化；当对象被反序列化时，被 `transient` 修饰的变量值不会被持久化和恢复。`transient` 只能修饰变量，不能修饰类和方法。
 
@@ -1400,4 +1398,4 @@ Java Io 流共涉及 40 多个类，这些类看上去很杂乱，但实际上�
 
 - https://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre
 - https://www.educba.com/oracle-vs-openjdk/
-- https://stackoverflow.com/questions/22358071/differences-between-oracle-jdk-and-openjdk?answertab=active#tab-top## 基础概念与常识
+- https://stackoverflow.com/questions/22358071/differences-between-oracle-jdk-and-openjdk 基础概念与常识
